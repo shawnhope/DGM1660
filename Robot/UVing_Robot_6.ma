@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
-//Name: UVing_Robot_5.ma
-//Last modified: Mon, Oct 16, 2017 12:05:59 PM
+//Name: UVing_Robot_6.ma
+//Last modified: Mon, Oct 16, 2017 12:07:27 PM
 //Codeset: 1252
 requires maya "2017ff05";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "1.4.2.3";
@@ -5833,19 +5833,19 @@ createNode mesh -n "RobotShape" -p "Robot";
 	setAttr ".dr" 1;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "F261B1DD-44D6-E18F-7315-889B935A3325";
+	rename -uid "58C60316-4B5C-877A-052B-8983F15C1627";
 	setAttr -s 15 ".lnk";
 	setAttr -s 15 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "FC4D521F-41B6-50CB-3458-4180906BBE39";
+	rename -uid "EF27AB5B-4DC0-EEA1-B7F5-B88477594A60";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "5B3BBBC7-40C5-2426-E786-A0B1EF8F1F98";
+	rename -uid "C1578421-4FAC-3247-0582-6F90E12F34B4";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "5A1AA5DD-4362-4FCB-7D2B-0FAD62A9CBDC";
+	rename -uid "65E927F3-4087-6463-D4BD-BFA52B2C9DC2";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "08FA4F48-45D8-DE31-13DA-DD9703F3FC3A";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "B9554F89-45B9-0BF1-16BA-A59E5C888401";
+	rename -uid "C1A39515-4AFB-4E9D-3BE6-8F8A5E12CD63";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "68EFFF79-4C73-C8D0-A7C6-BAB94F108A2C";
 	setAttr ".g" yes;
@@ -6286,4 +6286,4 @@ connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file2.msg" ":defaultTextureList1.tx" -na;
 connectAttr "file3.msg" ":defaultTextureList1.tx" -na;
-// End of UVing_Robot_5.ma
+// End of UVing_Robot_6.ma
