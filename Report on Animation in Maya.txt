@@ -1,0 +1,9 @@
+Shawn Hope
+McCully
+DGM1660
+
+Report on Animation in Maya
+
+	Animation in Maya is pretty straight forward. It's just like animating in anything else, just in 3D (unless 'anything else' is also 3D, then it's exactly the same more or less). Once you have your model rigged and skinned, it's just a matter of moving and rotating the bones into poses, and recording those poses to keyframes on the timeline. UUhhh.. Graphs and graph editors are stupid and I hate them, but I still want to learn how to use them better because it is much more simple to tweak the curve than it would be to pose every individual pose. But boy am I tempted to try to frame by frame it anyway.
+	Gimbal lock is a thing; a thing that messes with the axis while rotating.
+	I wonder if there's easier shortkeys for scrubbing and playing/stopping, if there's a way to see keyed frames without it being selected, and I want to make an IK rig because they're fun.
